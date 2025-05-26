@@ -15,3 +15,4 @@ C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\obj\Debug\refint\Strater
 C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\obj\Debug\StratergyGame.pdb
 C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\obj\Debug\StratergyGame.genruntimeconfig.cache
 C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\obj\Debug\ref\StratergyGame.dll
+C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\obj\Debug\StratergyGame.sourcelink.json

@@ -1,2 +1,6 @@
 res://Scripts/Game.cs
 res://Scenes/game.tscn
+res://Scenes/HexTileMap.cs
+res://Scenes/hex_tile_map.gd
+res://Scripts/HexTileMap.cs
+res://Scenes/camera_2d.gd
