@@ -1,0 +1,17 @@
+C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\bin\Debug\StratergyGame.deps.json
+C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\bin\Debug\StratergyGame.runtimeconfig.json
+C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\bin\Debug\StratergyGame.dll
+C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\bin\Debug\StratergyGame.pdb
+C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\obj\Debug\StratergyGame.csproj.AssemblyReference.cache
+C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\obj\Debug\StratergyGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\obj\Debug\StratergyGame.AssemblyInfoInputs.cache
+C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\obj\Debug\StratergyGame.AssemblyInfo.cs
+C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\obj\Debug\StratergyGame.csproj.CoreCompileInputs.cache
+C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\obj\Debug\Straterg.DFEE3400.Up2Date
+C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\obj\Debug\StratergyGame.dll
+C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\obj\Debug\refint\StratergyGame.dll
+C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\obj\Debug\StratergyGame.pdb
+C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\obj\Debug\StratergyGame.genruntimeconfig.cache
+C:\Users\smbaq\Documents\stratergygame\.godot\mono\temp\obj\Debug\ref\StratergyGame.dll
