@@ -11,7 +11,6 @@ extends Node2D
 func _ready() -> void:
 	generate_terrain()
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
@@ -21,3 +20,6 @@ func generate_terrain():
 		for y in range(height):
 			base_layer.set_cell(Vector2i(x,y), 0, Vector2i(0,0))
 			border_layer.set_cell(Vector2i(x,y), 0, Vector2i(0,0))
+
+func map_to_local(coords:Vector2i):
+	return base_layer.map_to_local(coords)

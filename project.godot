@@ -19,6 +19,10 @@ config/icon="res://icon.svg"
 
 project/assembly_name="StratergyGame"
 
+[editor]
+
+script/search_in_file_extensions=PackedStringArray("gd", "gdshader")
+
 [input]
 
 Map_left={

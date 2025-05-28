@@ -7,24 +7,35 @@ extends Camera2D
 var mouse_wheel_scrolling_up:bool = false
 var mouse_wheel_scrolling_down:bool = false
 
+#map boundaries
+var left_bound:float
+var right_bound:float
+var top_bound:float
+var bottom_bound:float
+
+#map reference
+@onready var map = $"../HexTileMap"
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
-
-
+	left_bound = to_global(map.map_to_local(Vector2i(0,0))).x + 100
+	right_bound = to_global(map.map_to_local(Vector2i(map.width, 0))).x - 100
+	top_bound = to_global(map.map_to_local(Vector2i(0,0))).y + 50
+	bottom_bound = to_global(map.map_to_local(Vector2i(0,map.height))).y - 50
+ 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _physics_process(delta: float) -> void:
+func _physics_process(_delta: float) -> void:
 	#map controls
-	if Input.is_action_pressed("Map_right"):
+	if Input.is_action_pressed("Map_right") and position.x < right_bound:
 		position += Vector2(velocity, 0)
 		
-	if Input.is_action_pressed("Map_left"):
-		position -= Vector2(velocity, 0)
+	if Input.is_action_pressed("Map_left") and position.x > left_bound:
+		position += Vector2(-velocity, 0)
 	
-	if Input.is_action_pressed("map_up"):
-		position -= Vector2(0, velocity)
+	if Input.is_action_pressed("map_up") and position.y > top_bound:
+		position += Vector2(0, -velocity)
 	
-	if Input.is_action_pressed("map_down"):
+	if Input.is_action_pressed("map_down") and position.y < bottom_bound:
 		position += Vector2(0, velocity)
 	
 	#zoom controls

@@ -4,3 +4,5 @@ res://Scenes/HexTileMap.cs
 res://Scenes/hex_tile_map.gd
 res://Scripts/HexTileMap.cs
 res://Scenes/camera_2d.gd
+res://Scripts/camera.gd
+res://Scripts/hex_tile_map.gd
